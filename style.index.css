@@ -42,6 +42,8 @@
     justify-content: space-around;
     font-size: x-large;
     box-sizing: border-box;
+    margin-left: 5%;
+    margin-right:  10%;
     
     
 }
@@ -73,6 +75,7 @@
     text-align: center;
     background-color: blue;
     font-size: xx-large;
+
 }
 .photo-galary{
     flex-wrap: wrap;
@@ -82,13 +85,18 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin: 1rem 5rem 0rem 1rem;
+    margin-right: 10%;
+    margin-left: 5%;
     height: 20%;
+
 }
 .contact-form{
     background-color: brown;
     text-align: center;
     margin: 20px;
+    width: 78%;
+    margin-left:7%;
+    border-radius:5%;
 }
 
  .photo-galary__item{
@@ -96,11 +104,14 @@
     }
 
 .footer{
+    width: 78%;
     height:50% ;
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-    background-color: rgb(0, 255, 200)
+    margin-left: 7%;
+    background-color: rgb(0, 255, 200);
+    border-radius: 5%;
 }
 
 .footer__right{
@@ -108,5 +119,10 @@
    justify-content: space-between;
    width: 50%;
 }
-
+.footer__column--3{
+margin-right: 20px;
+}
+.footer__left{
+    margin-left: 20px;
+}
 
