@@ -27,9 +27,11 @@
     font-size: x-large;
     width: 49%;
     justify-content: right;
+    font-size: larger;
 }
 .presantation__image{
     padding-top: 30px;
+    margin-right: 5%;
 }
 
 .resturant__title{
@@ -43,9 +45,7 @@
     font-size: x-large;
     box-sizing: border-box;
     margin-left: 5%;
-    margin-right:  10%;
-    
-    
+    margin-right:  10%; 
 }
 .resturant__category-title{
     width: 30%;
@@ -55,20 +55,22 @@
 
 
 .resturant__category--pizza{
-    width: 30%;
+    width: 50%;
     background-color: brown;
     border-radius: 50px;
+    flex-wrap: wrap;
 }
 .resturant__category--pasta{
-    width: 30%;
-    background-color: rgb(48, 39, 167);
+    width: 50%;
+    background-color: rgb(167, 137, 39);
     border-radius: 50px;
+    flex-wrap: wrap;
 }
 .resturant__category--deser{
-    width: 30%;
+    width: 50%;
    border-radius:50px;
    background-color: aqua;
-
+   flex-wrap: wrap;
 }
 
 .photo-galary__title{
@@ -125,4 +127,12 @@ margin-right: 20px;
 .footer__left{
     margin-left: 20px;
 }
+#toggleButton{
+    color: rgb(136, 116, 57); 
+  background-color: rgb(194, 120, 120);
+}
+  
 
+.dark-mode{
+    background-color: black;
+}
