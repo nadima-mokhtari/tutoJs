@@ -1,12 +1,22 @@
 
+
+:root{
+    --colorfond: rgb(38, 78, 78);
+    
+}
+body{
+    background-color: var(--colorfond);
+
+}
+
 .navigation__link{
-    color: rgb(194, 38, 38);
+    color: rgb(230, 221, 221);
     text-align: right;
     margin: 20px;
     position: relative;
     top: 20px;
     padding: 7px;
-    background-color: aqua;
+    background-color: rgb(94, 116, 145);
     border-radius: 50px;
     height: 11px;
     width: 50px;
@@ -25,13 +35,27 @@
 }
 .presantation__pre{
     font-size: x-large;
-    width: 49%;
+    width: 50%;
     justify-content: right;
     font-size: larger;
+    background-color: white;
+    border-radius: 5%;
+    text-align: center;
+    margin-top: 3%;
+    height: 10%;
+    margin-right:3%;
+    margin-left: 3%;
 }
 .presantation__image{
     padding-top: 30px;
     margin-right: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: 1s ease-in-out;
+}
+.presantation__image:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgb(88, 59, 59);
+    transform: scale(1.5);
 }
 
 .resturant__title{
@@ -48,7 +72,6 @@
     margin-right:  10%; 
 }
 .resturant__category-title{
-    width: 30%;
     border-radius: 50px;
     box-sizing: border-box;
 }
@@ -56,19 +79,26 @@
 
 .resturant__category--pizza{
     width: 50%;
-    background-color: brown;
-    border-radius: 50px;
+    background-color: rgb(230, 16, 16);
+    border: solid;
     flex-wrap: wrap;
 }
 .resturant__category--pasta{
     width: 50%;
     background-color: rgb(167, 137, 39);
-    border-radius: 50px;
+    border:solid;
     flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resturant__item{
+    text-align: center;
+
 }
 .resturant__category--deser{
     width: 50%;
-   border-radius:50px;
+   border: solid;
    background-color: aqua;
    flex-wrap: wrap;
 }
@@ -79,8 +109,16 @@
     font-size: xx-large;
 
 }
-.photo-galary{
+.photo-galary__item{
     flex-wrap: wrap;
+    box-shadow: 0 4px 6px rgb(148, 24, 24);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: 1s ease-in-out;
+}
+.photo-galary__item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgb(88, 59, 59);
+    transform: scale(1.5);
 }
 .photos-galary__list{
     flex-wrap: wrap;
@@ -93,12 +131,14 @@
 
 }
 .contact-form{
-    background-color: brown;
+    background-color: rgb(179, 85, 85);
     text-align: center;
     margin: 20px;
+    padding: 5px;
     width: 78%;
     margin-left:7%;
     border-radius:5%;
+    
 }
 
  .photo-galary__item{
@@ -127,12 +167,20 @@ margin-right: 20px;
 .footer__left{
     margin-left: 20px;
 }
-#toggleButton{
+.contact-form__button{
     color: rgb(136, 116, 57); 
   background-color: rgb(194, 120, 120);
+  margin: 5px;
+  padding: 10px;
 }
   
 
 .dark-mode{
     background-color: black;
+}
+.contact-form__input{
+    width: 90%;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
 }
