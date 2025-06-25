@@ -11,9 +11,10 @@
 
 <section class="navigation">
     <div class="navigation__logo">
-        <img src="https://pastalavista.com.au/wp-content/uploads/2022/02/cropped-Pasta-La-Vista-Logo-PNG-1-1024x627.png" alt="100" width="100">
+        <img src="https://pastalavista.com.au/wp-content/uploads/2022/02/cropped-Pasta-La-Vista-Logo-PNG-1-1024x627.png" alt="200" width="200">
     </div>
-        
+       
+    
         <nav class="navigation__nav">
             <a href="#presantation" class="navigation__link">link one</a>
             <a href="#list" class="navigation__link"> link two</a>
@@ -21,11 +22,12 @@
             <a href="#coordonnees" class="navigation__link">link four</a>
             <a href="#navigation" class="navigation__link">link five</a>
             <button id="toggleButton"> dark MODE</button>
+    
     </nav>
 </section>
 
 
- <section class="presantation">
+ <section class="presantation" id="presantation">
         <p class="presantation__pre">Pasta à la vista est un concept culinaire qui fait référence à la présentation de plats de pâtes où les ingrédients sont soigneusement exposés de manière esthétique. L'idée est de laisser les saveurs et les couleurs des divers composants du plat se dévoiler visuellement, tout en créant une expérience gastronomique qui stimule autant l'œil que le palais. Que ce soit des pâtes fraîches, des sauces maison ou des garnitures fraîches comme des herbes, des légumes et des protéines, chaque élément est présenté de manière à souligner sa texture, ses couleurs et sa fraîcheur. Ce type de présentation est souvent privilégié dans des restaurants haut de gamme ou dans des repas où l'accent est mis sur l'art de la présentation tout en conservant la simplicité des plats italiens traditionnels. En somme, "pasta à la vista" permet de transformer un plat classique en une œuvre d'art visuelle.</p>
         <div class="presantation__image">
             <img src="assets/rasturant.png" alt="300" width="600"></div>
@@ -34,7 +36,7 @@
 
 <main>
     <h1 class="resturant__title">Nos spécialités italiens</h1>
-    <section class="resturant__category">
+    <section class="resturant__category" id="list">
       <div class="resturant__category resturant__category--pizza">
         <h3 class="resturant__category-title">Pizza</h3>
             <ul class="resturant__list">
@@ -73,7 +75,7 @@
 
 
 
-<section class="photo-galary">
+<section class="photo-galary" id="photo">
     <h3 class="photo-galary__title">Photo</h3>
     <ul class="photos-galary__list">
         <li class="photo-galary__item"><img src="assets/pizza-stock.jpg" alt height="200" width="400"></li>
@@ -85,37 +87,36 @@
     </ul>
 </section>
 
-<img src="" alt="">
-<section class="contact-form">
+<section class="contact-form" id="coordonnees">
     <h2 class="contact-form__title">Réservez votre table</h2>
-        <form class="contact-form__form">
-             <div class="contact-form__input group">
+        <form id="formcontact" class="contact-form__form">
+             <div class="contact-form__input-group">
                 <label class="contact-form__label" for="nom"> </label>
-                <input class="contact-form__input" type="text" id="nom" name="nom" placeholder="Nom et Prenom">
+                <input class="contact-form__input" type="text" id="nom" name="nom" placeholder="Nom">
         </div>
 
-        <br>
+        
         <div class="contact-form__input-group">
                 <label class="contact-form__label" for="email"></label>
                 <input class="contact-form__input" type="text" id="email" name="email" placeholder="email">
         </div>
 
-        <br>
+        
         <div class="contact-form__input-group">
-                <label class="contact-form__label" for="numero"></label>
-                <input class="contact-form__input" type="text" id="nbPersonne" name="numero" placeholder="Nombre de personnes">
+                <label class="contact-form__label" for="nbPersonne"></label>
+                <input class="contact-form__input" type="text" id="Personne" name="numero" placeholder="personnes">
             </div>
-            <br>
+            
       <div class="contact-form__input-group">
                 <label class="contact-form__label" for="date"></label>
-                <input class="contact-form__input" type="text" id="date" name="date" placeholder="Date">
+                <input class="contact-form__input" type="date" id="date" name="date" placeholder="Date" >
     </div>
-    <br>
-          <button class="contact-form__button">Je Réserve</button>
+    
+          <button type="submit" class="contact-form__button">Je Réserve</button>
 </form>
 </section>
 </main> 
-<footer class="footer">
+<footer class="footer" id="navigation">
     <div class="footer__left">
       <div class="footer__logo">
         <h2>Logo</h2>
@@ -163,6 +164,11 @@
       </div>
     </div>
   </footer>
+
+
+
   <script src="nadima.index.js"></script>
 </body>
 </html>
+
+
