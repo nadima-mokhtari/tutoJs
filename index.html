@@ -1,16 +1,15 @@
-:<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/styles.css">
+    <link rel="stylesheet" href="style.index.css">
     <title> pasta a la vista</title>
-    <!-- npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch -->
 </head>
-<body class="bg-cyan-900 text-white dark:bg-gray-900 dark:text-white">
+<body>
   <header>
 
-<<<<<<< HEAD
 <section class="navigation">
     <div class="navigation__logo">
         <img src="https://pastalavista.com.au/wp-content/uploads/2022/02/cropped-Pasta-La-Vista-Logo-PNG-1-1024x627.png" alt="200" width="200">
@@ -24,26 +23,11 @@
             <a href="#coordonnees" class="navigation__link">link four</a>
             <a href="#navigation" class="navigation__link">link five</a>
             <button id="toggleButton"> dark MODE</button>
-=======
-<section class="flex items-center justify-between" id="navigation">
-    <div class="logo">
-        <img src="https://pastalavista.com.au/wp-content/uploads/2022/02/cropped-Pasta-La-Vista-Logo-PNG-1-1024x627.png" alt="200" width="200">
-    </div>
-    
-        <nav class="m-10 flex items-center space-x-6 ">
-            <a href="#presantation" class="text-white hover:text-gray-500 border-2 border-gray-300 px-4 py-1.5 rounded-bl-full ">link one</a>
-            <a href="#list" class="text-lg text-white hover:text-gray-500 border-2 border-gray-300 px-4 py-1.5 rounded-bl-full "> link two</a>
-            <a href="#photo" class="text-lg text-white hover:text-gray-500 border-2 border-gray-300 px-4 py-1.5 rounded-bl-full ">link three</a>
-            <a href="#coordonnees" class="text-lg text-white hover:text-gray-500 border-2 border-gray-300 px-4 py-1.5 rounded-bl-full ">link four</a>
-            <a href="#navigation" class="text-lg text-white hover:text-gray-500 border-2 border-gray-300 px-4 py-1.5 rounded-bl-full ">link five</a>
-            <button class="text-lg text-white hover:text-gray-500 border-2 border-gray-300 px-4 py-1.5 rounded-bl-full" id="toggleButton"> Dark MODE</button>
->>>>>>> 63e7aafa700f22681fccbb55eb0bff067501de61
     
     </nav>
 </section>
 
 
-<<<<<<< HEAD
  <section class="presantation" id="presantation">
         <p class="presantation__pre">Pasta à la vista est un concept culinaire qui fait référence à la présentation de plats de pâtes où les ingrédients sont soigneusement exposés de manière esthétique. L'idée est de laisser les saveurs et les couleurs des divers composants du plat se dévoiler visuellement, tout en créant une expérience gastronomique qui stimule autant l'œil que le palais. Que ce soit des pâtes fraîches, des sauces maison ou des garnitures fraîches comme des herbes, des légumes et des protéines, chaque élément est présenté de manière à souligner sa texture, ses couleurs et sa fraîcheur. Ce type de présentation est souvent privilégié dans des restaurants haut de gamme ou dans des repas où l'accent est mis sur l'art de la présentation tout en conservant la simplicité des plats italiens traditionnels. En somme, "pasta à la vista" permet de transformer un plat classique en une œuvre d'art visuelle.</p>
         <div class="presantation__image">
@@ -58,22 +42,6 @@
         <h3 class="resturant__category-title">Pizza</h3>
             <ul class="resturant__list">
               <li class="resturant__item">Vegetarian </li>
-=======
-<section class="flex items-center justify-between" id="presantation">
-        <div class="w-1/3 ml-10 pt-8 ">
-            <img src="assets/rasturant.png" alt="Restaurant Image" class=" shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105"></div>
-  <p class="text-center w-1/2 pr-4 mr-16">Pasta à la vista est un concept culinaire qui fait référence à la présentation de plats de pâtes où les ingrédients sont soigneusement exposés de manière esthétique. L'idée est de laisser les saveurs et les couleurs des divers composants du plat se dévoiler visuellement, tout en créant une expérience gastronomique qui stimule autant l'œil que le palais. Que ce soit des pâtes fraîches, des sauces maison ou des garnitures fraîches comme des herbes, des légumes et des protéines, chaque élément est présenté de manière à souligner sa texture, ses couleurs et sa fraîcheur. Ce type de présentation est souvent privilégié dans des restaurants haut de gamme ou dans des repas où l'accent est mis sur l'art de la présentation tout en conservant la simplicité des plats italiens traditionnels. En somme, "pasta à la vista" permet de transformer un plat classique en une œuvre d'art visuelle.</p>
-</section> 
-</header>
-
-<main>
-    <h1 class="mt-11 text-center text-3xl bg-slate-500 p-2 ">Nos spécialités italiens</h1>
-    <section class="flex justify-around mt-5  " id="list">
-      <div class="bg-orange-500 p-6 mb-6">
-        <h3 class=" text-3xl text-center">Pizza</h3>
-            <ul class="mt-5  space-y-2 text-center">
-              <li class="">Vegetarian </li>
->>>>>>> 63e7aafa700f22681fccbb55eb0bff067501de61
               <li class="resturant__item">BBQ Chicken</li>
               <li class="resturant__item">Buffalo Chicken  </li>
               <li class="resturant__item"> Marinara </li>
@@ -82,9 +50,9 @@
       </div>
 
 
-      <div class="bg-orange-500 pl-14 mb-6 pr-14 pt-6 text-center">
-        <h3 class="text-3xl">Pasta</h3>
-          <ul class="mt-5  space-y-2">
+      <div class="resturant__category resturant__category--pasta">
+        <h3 class="resturant__category-title">Pasta</h3>
+          <ul class="resturant__list">
               <li class="resturant__item">Tagliatelle</li>
               <li class="resturant__item">Macaroni </li>
               <li class="resturant__item">Ravioli</li>
@@ -94,9 +62,9 @@
   </div>
 
 
-      <div class="bg-orange-500 p-6 mb-6 text-center">
-      <h3 class="text-3xl">Deser</h3>
-      <ul class="mt-5  space-y-2">
+      <div class="resturant__category resturant__category--deser">
+      <h3 class="resturant__category-title">Deser</h3>
+      <ul class="resturant__list">
           <li class="resturant__item">Chocolate Cake</li>
           <li class="resturant__item">Chocolate Cake</li>
           <li class="resturant__item">Cheesecake</li>
@@ -107,7 +75,6 @@
 </section>
 
 
-<<<<<<< HEAD
 
 <section class="photo-galary" id="photo">
     <h3 class="photo-galary__title">Photo</h3>
@@ -127,46 +94,22 @@
              <div class="contact-form__input-group">
                 <label class="contact-form__label" for="nom"> </label>
                 <input class="contact-form__input" type="text" id="nom" name="nom" placeholder="Nom">
-=======
-<h3 class="text-4xl text-center mt-8 bg-slate-500 p-2">Photo</h3>
-<section class="photo__galary" id="photo">
-    <ul class="justify-between mt-3 flex flex-wrap" >
-        <li class="w-1/3 p-2"><img src="assets/pizza-stock.jpg" alt=" pizza" class="w-full h-60 object-cover  shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105"></li>
-        <li class="w-1/3 p-2"><img src="assets/pizza2.jpg"  alt="pizza1" class="w-full h-60 object-cover  shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105"></li>
-        <li class="w-1/3 p-2"><img src="assets/pasta.jpg"  alt="pasta" class="w-full h-60 object-cover  shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105" ></li>
-        <li class="w-1/3 p-2"><img src="assets/pasta2.jpg" alt="pasta2" class="w-full h-60 object-cover  shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105" ></li>
-        <li class="w-1/3 p-2"> <img src="assets/deser.jpg" alt="desert" class="w-full h-60 object-cover  shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105" ></li>
-        <li class="w-1/3 p-2"><img src="assets/deser2.jpg" alt="desert2" class="w-full h-60 object-cover  shadow-md transition-transform duration-300 ease-in-out hover:shadow-lg hover:scale-105 " ></li>
-</section>
-
-<section class="text-center bg-slate-500 p-2 ml-8 mr-8 mt-9 text-slate-950"  id="coordonnees">
-    <h2 class="text-3xl">Réservez votre table</h2>
-        <form id="formcontact" class="mx-auto">
-             <div class="cw-4/5">
-                <label class="contact-form__label" for="nom"> </label>
-                <input class="w-[90%] my-2 mt-3" type="text" id="nom" name="nom" placeholder="Nom">
->>>>>>> 63e7aafa700f22681fccbb55eb0bff067501de61
         </div>
 
         
         <div class="contact-form__input-group">
                 <label class="contact-form__label" for="email"></label>
-                <input class="w-[90%] my-2" type="text" id="email" name="email" placeholder="email">
+                <input class="contact-form__input" type="text" id="email" name="email" placeholder="email">
         </div>
 
         
         <div class="contact-form__input-group">
                 <label class="contact-form__label" for="nbPersonne"></label>
-<<<<<<< HEAD
                 <input class="contact-form__input" type="text" id="Personne" name="numero" placeholder="personnes">
-=======
-                <input class="w-[90%] my-2"type="text" id="Personne" name="numero" placeholder="personnes">
->>>>>>> 63e7aafa700f22681fccbb55eb0bff067501de61
             </div>
             
       <div class="contact-form__input-group">
                 <label class="contact-form__label" for="date"></label>
-<<<<<<< HEAD
                 <input class="contact-form__input" type="date" id="date" name="date" placeholder="Date" >
     </div>
     
@@ -176,17 +119,6 @@
 </main> 
 <footer class="footer" id="navigation">
     <div class="footer__left">
-=======
-                <input class="w-[90%] my-2" type="date" id="date" name="date" placeholder="Date" >
-    </div>
-    
-          <button type="submit" class="text-2xl">Je Réserve</button>
-</form>
-</section>
-</main> 
-<footer class="flex justify-between  bg-slate-500 p-2 mt-5 ml-8 mr-8 mb-5" id="navigation">
-    <div class="ml-2">
->>>>>>> 63e7aafa700f22681fccbb55eb0bff067501de61
       <div class="footer__logo">
         <h2>Logo</h2>
       </div>
@@ -195,36 +127,36 @@
       </address>
       <div class="footer__socials">
         <a href="#" class="footer__social-link footer__social-link--facebook">
-          <img src="facebook-icon.png" alt="Facebook" />
+          <img src="assets/facebook (1).png" alt="Facebook" />
         </a>
         <a href="#" class="footer__social-link footer__social-link--instagram">
-          <img src="instagram-icon.png" alt="Instagram" />
+          <img src="assets/instagram.png" alt="Instagram" />
         </a>
         <a href="#" class="footer__social-link footer__social-link--twitter">
-          <img src="twitter-icon.png" alt="Twitter" />
+          <img src="assets/twitter.png" alt="Twitter" />
         </a>
       </div>
     </div>
   
-    <div class="justify-between flex w-6/12 ">
+    <div class="footer__right">
       <div class="footer__column footer__column--1">
-        <h3 class="text-xl">Column 1</h3>
+        <h3 class="footer__column-title">Column 1</h3>
         <ul class="footer__column-list">
           <li class="footer__column-item">Option 1</li>
           <li class="footer__column-item">Option 2</li>
           <li class="footer__column-item">Option 3</li>
         </ul>
       </div>
-      <div class="justify-between" >
-        <h3 class="text-xl">Column 2</h3>
+      <div class="footer__column footer__column--2">
+        <h3 class="footer__column-title">Column 2</h3>
         <ul class="footer__column-list">
           <li class="footer__column-item">Option 1</li>
           <li class="footer__column-item">Option 2</li>
           <li class="footer__column-item">Option 3</li>
         </ul>
       </div>
-      <div class="justify-between">
-        <h3 class="text-xl mr-1">Column 3</h3>
+      <div class="footer__column footer__column--3">
+        <h3 class="footer__column-title">Column 3</h3>
         <ul class="footer__column-list">
           <li class="footer__column-item">Option 1</li>
           <li class="footer__column-item">Option 2</li>
